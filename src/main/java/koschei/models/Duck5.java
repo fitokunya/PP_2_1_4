@@ -9,7 +9,7 @@ public class Duck5 {
     private Egg6 egg;
 
     @Autowired
-    public Duck5(Egg6 egg) { this.egg = egg; }
+    public void setEgg6(Egg6 egg) { this.egg = egg; }
 
     @Override
     public String toString() {
